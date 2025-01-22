@@ -1,0 +1,160 @@
+<main id="main" class="container">
+  <section>
+    
+    <div class="card" id="buscar">
+      
+      <!--Card Header-->
+      <div class="card-header">
+        <h4 class="float-left heading h4-responsive mb-0">Buscar Estudiante</h4>
+      </div>
+      <!--Cierre Card Header-->
+      
+      <!--Card Body-->
+      <div class="card-body">
+        <div class="row">
+          
+          <div class="col-12 col-md-3">
+            <div class="md-form">
+              <input placeholder="Ej. 19593865-9" type="text" id="rut" class="form-control">
+              <label for="rut" class="active">RUT</label>
+            </div>
+            <p class="font-italic grey-text text-small m-0">*Ingresar Rut sin puntos, con guion. </p>
+          </div>
+          
+          
+          <div class="col-12 col-md-9 d-flex justify-content-end">
+            
+            <div class="md-form">
+              <button id="btnBuscar" class="btn btn-default waves-effect waves-light" onclick="showResults(this);showLoading()">
+                <span>Buscar</span>
+              </button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!--Cierre Card Body-->
+      
+    </div>
+    
+    <!--Card de Resultados -->
+    <div class="card expand_less" id="resultados" style="display: none;">
+      
+      <!--Card Header-->
+      <div class="card-header d-flex align-items-center justify-content-between flex-wrap">
+        
+        <h4 class="heading h4-responsive mb-0">
+          <span id="user-rut"> 13.645.727-6</span>
+          <span class="px-2 grey-text">|</span>
+          <span id="user-name">Nombre1 Nombre2, Apellido1 Apellido2</span>
+        </h4>
+        
+      </div>
+      <!--Card Header-->
+      
+      <div class="card-body">
+        
+        <h5 class="font-weight-bold mb-3">Categoría de Información 1</h5>  
+        <div class="row mt-2">
+          
+          <div class="col-12 col-sm-6 col-md-6 mb-2">
+            <div class="d-flex flex-wrap">
+              <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 1:</p>
+              <p class="font-weight-bold mb-1">Resultado 1</p>
+            </div>
+          </div>
+          
+          
+          <div class="col-12 col-sm-6 col-md-6 mb-2">
+            <div class="d-flex flex-wrap">
+              <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 2:</p>
+              <p class="font-weight-bold mb-1">Resultado 2</p>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-6 mb-2">
+            <div class="d-flex flex-wrap">
+              <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 3:</p>
+              <p class="font-weight-bold mb-1">Resultado 3</p>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-6 mb-2">
+            <div class="d-flex flex-wrap">
+              <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 4:</p>
+              <p class="font-weight-bold mb-1">Resultado 4</p>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-6 mb-2">
+            <div class="d-flex flex-wrap">
+              <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 5:</p>
+              <p class="font-weight-bold mb-1">Resultado 5</p>
+            </div>
+          </div>
+
+
+
+        
+      </div>
+
+
+      <h5 class="font-weight-bold my-3">Categoría de Información 2</h5>  
+      <div class="row mt-2">
+        
+        <div class="col-12 col-sm-6 col-md-6 mb-2">
+          <div class="d-flex flex-wrap">
+            <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 6:</p>
+            <p class="font-weight-bold mb-1">Resultado 6</p>
+          </div>
+        </div>
+        
+        
+        <div class="col-12 col-sm-6 col-md-6 mb-2">
+          <div class="d-flex flex-wrap">
+            <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 7:</p>
+            <p class="font-weight-bold mb-1">Resultado 7</p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-md-6 mb-2">
+          <div class="d-flex flex-wrap">
+            <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 8:</p>
+            <p class="font-weight-bold mb-1">Resultado 8</p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-md-6 mb-2">
+          <div class="d-flex flex-wrap">
+            <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 9:</p>
+            <p class="font-weight-bold mb-1">Resultado 9</p>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-6 col-md-6 mb-2">
+          <div class="d-flex flex-wrap">
+            <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 10:</p>
+            <p class="font-weight-bold mb-1">Resultado 10</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 mb-2">
+          <div class="d-flex flex-wrap">
+            <p class="fb-100 fb-lg-32 mb-1">Nombre del Campo N° 11:</p>
+            <p class="font-weight-bold mb-1">Resultado 11</p>
+          </div>
+        </div>
+        
+        
+        
+        
+      </div>
+      
+    </div>
+    <!--Card de Resultados-->
+    
+  </div>
+  
+  
+</section>
+</main>

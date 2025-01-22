@@ -1,0 +1,120 @@
+<div class="header">
+    <div class="header-container">
+      <!--Logo-->
+      <div class="header-logo">
+        <a href="http://www.inacap.cl">
+          <img src="https://digital.inacap.cl/template-aplicaciones/img/isotipo.png" alt="INACAP" class="logo-mobile">
+          <img src="https://digital.inacap.cl/template-aplicaciones/img/logo-inacap.png" alt="INACAP" class="logo">
+        </a>
+      </div>
+      
+      <!--Titulo, recuerda que tambien debes reemplazar el nombre en el script más abajo-->
+      <div class="header-title">
+        <h1 id="title">
+          <a href="#">
+            Encabezado 2
+          </a>
+        </h1>
+      </div>
+      
+      <!--Datos del Usuario-->
+      <div class="user-info">
+        <!--Nombre-->
+        <div class="user-name mr-4">
+          <p>Nombre Colaborador</p>
+        </div>
+        
+        <!-- Notificacines -->
+        <div class="user-notifications user-button" role="button" data-toggle="modal" data-target="#ModalNotificaciones">
+          <span class="notification-point z-depth-1"></span>
+          <i class="material-icons">notifications</i>
+        </div>
+        
+        <!-- Iconos encabezado - Mobile -->
+        <div class="user-mobile-menu user-button dropdown dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="material-icons">more_vert</i>
+          
+          <div class="dropdown-menu dropdown-menu-right">
+            <p class="dropdown-user-name">Colaborador X</p>
+            <p class="dropdown-title dropdown-title--border">Accesibilidad</p> 
+            <ul class="accesibility-menu">
+              <li class="accesibility-menu__item">
+                <div class="d-flex align-items-center justify-content-between" onclick="darkMode();">
+                  <span class="tipo-de-modo">Modo Oscuro</span>
+                  <div class="d-flex justify-content-center">
+                    <span>
+                      <i class="material-icons"> brightness_medium</i>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li class="accesibility-menu__item">
+                <div class="d-flex align-items-center justify-content-between">
+                  <span>Tamaño de letra</span>
+                  <div class="d-flex justify-content-center">
+                    <span tabindex="0" role="button" class="btnDecrease btn btn-round btn-fonts btn-secondary d-flex align-items-center justify-content-center waves-effect waves-light">
+                      <i class="material-icons">remove</i>
+                    </span>
+                    <span tabindex="0" role="button" class="btnEnlarge btn btn-round btn-fonts btn-default d-flex align-items-center justify-content-center ml-2 mr-0 waves-effect waves-light">
+                      <i class="material-icons">add</i>
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            
+            <!--- Cerrar Sesión-->
+            <p class="dropdown-title dropdown-title--border">Cuenta</p> 
+            <ul class="accesibility-menu">
+              <li class="accesibility-menu__item">
+                <div class="d-flex align-items-center justify-content-between">
+                  <span id="tipo-de-modo">Cerrar Sesión</span>
+                  <div class="d-flex justify-content-center">
+                    <span>
+                      <i class="material-icons">exit_to_app</i>
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            
+          </div>
+          
+        </div>
+        
+        <!-- Iconos encabezado - Escritorio-->
+        <div class="user-desktop-icons">
+          <div class="user-accesibility user-button dropdown dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons ">accessibility</i>
+            <div class="dropdown-menu dropdown-menu-right">
+              <p class="dropdown-title">Accesibilidad</p> 
+              <ul class="accesibility-menu">
+                <li class="accesibility-menu__item">
+                  <div class="d-flex align-items-center justify-content-between" onclick="darkMode();">
+                    <span class="tipo-de-modo">Modo Oscuro</span>
+                    <div class="d-flex justify-content-center">
+                      <span>
+                        <i class="material-icons"> brightness_medium</i>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="accesibility-menu__item">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <span>Tamaño de letra</span>
+                    <div class="d-flex justify-content-center">
+                      <span tabindex="0" role="button" class="btnDecrease btn btn-round btn-fonts btn-secondary d-flex align-items-center justify-content-center waves-effect waves-light"><i class="material-icons">remove</i></span>
+                      <span tabindex="0" role="button" class="btnEnlarge btn btn-round btn-fonts btn-default d-flex align-items-center justify-content-center ml-2 mr-0 waves-effect waves-light"><i class="material-icons">add</i></span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="user-logout user-button">
+            <a href="#"><i class="material-icons">exit_to_app</i></a>
+          </div>
+        </div>
+      </div>        
+    </div>
+  </div>
